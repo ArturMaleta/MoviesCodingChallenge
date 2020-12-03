@@ -4,7 +4,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 
-fun Fragment.replaceFragment(
+fun Fragment.addFragment(
     supportFragmentManager: FragmentManager,
     container: Int,
     fragment: Fragment,
